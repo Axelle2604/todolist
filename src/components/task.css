@@ -1,0 +1,17 @@
+.task {
+  border-top: solid 1px white;
+  padding: 10px;
+}
+
+.isChecked {
+  text-decoration: none;
+}
+
+.isNotChecked {
+  text-decoration: line-through;
+}
+
+.task input:hover,
+.subject:hover {
+  cursor: pointer;
+}

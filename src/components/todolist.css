@@ -1,0 +1,35 @@
+.todolist {
+  background-color: #78e08f;
+  padding: 10px;
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.titleTodo {
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 33%;
+  color: #282828;
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputTask input {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.deleteIcon .far.fa-trash-alt {
+  color: #e74c3c;
+  font-size: 20px;
+}
+
+.deleteIcon .far.fa-trash-alt:hover {
+  color: #c0392b;
+  cursor: pointer;
+}
